@@ -49,8 +49,11 @@ body{
 	color: #111;
 }
 @media screen and (max-width: 576px) {
+	body {
+		background: #00004d;
+	}
 	.calculator {
-		width: 90%;
+		width: 100%;
 		margin: auto;
 		height: 100vh;
 	}
